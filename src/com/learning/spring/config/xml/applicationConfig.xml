@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!-- bean definitions here -->
+
+    <bean id="circle" class="com.learning.spring.config.xml.Circle">
+        <constructor-arg type="double" value="4.3"/>
+    </bean>
+
+    <bean id="triangle" class="com.learning.spring.config.xml.Triangle">
+        <property name="base" value="3.2"/>
+        <property name="height" value="4.8"/>
+    </bean>
+
+</beans>
